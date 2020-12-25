@@ -1,0 +1,17 @@
+button.navItem {
+	margin: 10px 0;
+	border-radius: 3px;
+	padding: 5px 15px;
+	background-color: white;
+	color: rgba(0, 0, 0, 0.5);
+	border: none;
+	text-transform: capitalize;
+	transition: 300ms all ease-in-out;
+	transform-origin: center;
+}
+
+button.navItem.active,
+button.navItem:hover {
+	background-color: rgba(34, 34, 34, 0.8);
+	color: white;
+}

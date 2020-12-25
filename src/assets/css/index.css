@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+:root {
+	--primary-color: #4b6cc1;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+
+body {
+	height: 100vh;
+	font-family: "PT Serif", serif !important;
+}
+
+.custom-control.custom-switch {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none !important;
+	color: var(--primary-color);
+}
+
+#primaryColor {
+	filter: invert(48%) sepia(79%) saturate(2476%) hue-rotate(86deg)
+		brightness(118%) contrast(119%);
+}

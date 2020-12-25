@@ -63,7 +63,7 @@ export const Contact = () => {
 						and I’ll get back within 1-2 days.
 					</h5>
 				</Col>
-				<Col md={5} className="p-0 m-0">
+				<Col md={5} className="px-2 mt-5">
 					<img
 						src={process.env.PUBLIC_URL + "/images/contact.svg"}
 						alt="Contact Me"

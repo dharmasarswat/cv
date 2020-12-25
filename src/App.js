@@ -9,6 +9,7 @@ import { Project } from "./pages/Projects";
 import { Container } from "react-bootstrap";
 import { Nab } from "./pages/Nav";
 import { Portfolio } from "./pages/Portfolio";
+import { Footer } from "./pages/Footer";
 
 export const routes = [
 	{
@@ -51,6 +52,7 @@ function App() {
 				})}
 				<Route exact path="/cv" component={Home} />
 			</Switch>
+			<Footer />
 		</BrowserRouter>
 	);
 }

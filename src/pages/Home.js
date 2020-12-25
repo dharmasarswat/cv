@@ -34,11 +34,11 @@ export const Home = () => {
 						conveyable memory. Let us help build your tribe.”{" "}
 						<em>-Deep Immersion</em>
 					</p>
-					<Link to="/about">
+					<a href="/resume.pdf" download>
 						<Button variant="outline-dark" className="mt-4 mr-3">
 							Download resume
 						</Button>
-					</Link>
+					</a>
 					<Link to="/about">
 						<Button variant="outline-info" className="mt-4 border-0">
 							More about me

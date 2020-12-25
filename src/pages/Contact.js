@@ -56,9 +56,7 @@ export const Contact = () => {
 		>
 			<Row className="justify-content-between align-items-center h-100">
 				<Col md={6} className="p-2 m-0">
-					<h1 className="mb-4 mt-4" style={{ color: "var(--primary-color)" }}>
-						Contact Me
-					</h1>
+					<h1 style={{ fontWeight: 600 }}>Contact</h1>
 					<h5 className="text-black-50 mb-4 mt-3">
 						If you’d like to chat about a project please fill in the form below
 						and I’ll get back within 1-2 days.

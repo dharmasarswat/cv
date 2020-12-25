@@ -49,6 +49,7 @@ function App() {
 						/>
 					);
 				})}
+				<Route exact path="/cv" component={Home} />
 			</Switch>
 		</BrowserRouter>
 	);

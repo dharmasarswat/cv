@@ -26,7 +26,15 @@ a {
 	color: var(--primary-color);
 }
 
-#primaryColor {
-	filter: invert(48%) sepia(79%) saturate(2476%) hue-rotate(86deg)
-		brightness(118%) contrast(119%);
+.socialIcon {
+	color: #afafaf;
+	margin-right: 30px;
+	font-size: large;
+	transition: 300ms all ease-in-out;
+}
+
+.socialIcon:hover {
+	color: var(--primary-color);
+	transform: scale(1.5);
+	transform-origin: center center;
 }

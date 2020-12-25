@@ -9,6 +9,7 @@ export const Home = () => {
 
 	useEffect(() => {
 		setActive("/");
+		window.scroll(0, 0);
 	}, []);
 
 	return (

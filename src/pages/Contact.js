@@ -16,6 +16,7 @@ export const Contact = () => {
 
 	useEffect(() => {
 		setActive("/contact");
+		window.scroll(0, 0);
 	}, []);
 
 	const handelChange = (e) => {

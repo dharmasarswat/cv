@@ -1,7 +1,6 @@
 import React, { useEffect, useContext } from "react";
 import { NavContext } from "../navContext";
-import { Container, Col, Row, Button } from "react-bootstrap";
-import { Link } from "react-router-dom";
+import { Container, Col, Row } from "react-bootstrap";
 import { Services } from "./Services";
 
 export const About = () => {
@@ -9,6 +8,7 @@ export const About = () => {
 
 	useEffect(() => {
 		setActive("/about");
+		window.scroll(0, 0);
 	}, []);
 
 	return (

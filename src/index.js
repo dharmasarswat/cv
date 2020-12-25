@@ -4,6 +4,7 @@ import App from "./App";
 import "./assets/css/index.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { NavProvider } from "./navContext";
+import { register } from "./serviceWorker";
 
 ReactDOM.render(
 	<React.StrictMode>
@@ -13,3 +14,5 @@ ReactDOM.render(
 	</React.StrictMode>,
 	document.getElementById("root")
 );
+
+serviceWorker.register();

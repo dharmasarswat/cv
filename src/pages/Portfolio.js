@@ -10,6 +10,7 @@ export const Portfolio = () => {
 
 	useEffect(() => {
 		setActive("/portfolio");
+		window.scroll(0, 0);
 	}, []);
 
 	return (

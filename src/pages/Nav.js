@@ -2,8 +2,7 @@ import React from "react";
 import { routes } from "../App";
 import { Link } from "react-router-dom";
 import "../assets/css/nav.css";
-import { Row, Col, Nav, Navbar } from "react-bootstrap";
-import { useState } from "react";
+import { Nav, Navbar } from "react-bootstrap";
 import { useContext } from "react";
 import { NavContext } from "../navContext";
 

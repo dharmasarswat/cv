@@ -77,7 +77,7 @@ export const Education = () => {
 								Score: {education.score}
 							</h6>
 							<h6 className="text-muted text-center">
-								Straem: {education.stream}
+								Stream: {education.stream}
 							</h6>
 						</Col>
 					);

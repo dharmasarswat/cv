@@ -71,7 +71,7 @@ export const Education = () => {
 								{education.heading}
 							</h1>
 							<h3 className="mb-4">{education.instution}</h3>
-							<h6 className="text-muted">( {education.duration} )</h6>
+							{/* <h6 className="text-muted">( {education.duration} )</h6> */}
 							<h6 className="text-muted mt-4">{education.location}</h6>
 							<h6 className="text-muted text-center">
 								Score: {education.score}

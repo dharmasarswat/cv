@@ -28,7 +28,7 @@ export const Home = () => {
 				<Col md={6} className="p-2 m-0">
 					<h2>Hi, I'm Dharmendra Sarswat</h2>
 					<h5 className="text-black-50 mb-4 mt-3">
-						Mern stack developer, based in India.
+						Mern stack developer, based in India. With an experience of 3+ years.
 					</h5>
 					<p className="text-black-50">
 						“Let us take you into a deeper experience, make a moment a lasting

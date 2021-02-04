@@ -53,7 +53,7 @@ export const Experience = () => {
 								}}
 							/>
 							<h3 className="mb-4 mt-4">{experence.heading}</h3>
-							<h6 className="text-muted">( {experence.duration} )</h6>
+							{/* <h6 className="text-muted">( {experence.duration} )</h6> */}
 							<h6 className="text-muted">{experence.location}</h6>
 							<h5 className="text-muted mt-4 text-center">{experence.desc}</h5>
 						</Col>

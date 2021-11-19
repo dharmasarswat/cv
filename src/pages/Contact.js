@@ -61,6 +61,12 @@ export const Contact = () => {
 						If you’d like to chat about a project please fill in the form below
 						and I’ll get back within 1-2 days.
 					</h5>
+					<h5 className="text-black-50 mb-4 mt-3">
+						or connect with me on {" "}
+						<a href="https://www.linkedin.com/in/dharmendrasarswat/" target="_blank" rel="noreferrer" >
+							linkedIn
+						</a>
+					</h5>
 				</Col>
 				<Col md={5} className="px-2 mt-5">
 					<img

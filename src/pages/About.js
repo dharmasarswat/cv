@@ -25,9 +25,9 @@ export const About = () => {
 						<h3 className="mb-3 mt-4">
 							Mern stack developer, based in the India.
 						</h3>
-						<h4 className="text-muted ">
-							I am self taught MERN stack developer, located in Agra, India.
-						</h4>
+						<h5 className="text-muted ">
+							I am self taught MERN stack developer, located in Indore, India.
+						</h5>
 						<h5 className="text-muted mt-4">
 							I work with a Dell Inspiron 15 and particularly enjoy creating
 							creative and good looking UI/UX.

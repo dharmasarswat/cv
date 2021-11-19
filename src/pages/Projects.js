@@ -44,11 +44,11 @@ export const Project = () => {
 							key={index}
 							className="justify-content-between align-items-center my-4"
 						>
-							<Col md={5} className="mx-auto p-0">
+							<Col md={5} className="m-0 p-0">
 								<img
 									src={process.env.PUBLIC_URL + project.img}
 									alt={project.name}
-									className="rounded my-4 p-0 w-100"
+									className="rounded my-4 p-0 w-100 w-xs-75"
 								/>
 							</Col>
 							<Col md={6} className="m-0 px-4">

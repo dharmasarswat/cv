@@ -18,11 +18,11 @@ export const Home = () => {
 			className="d-flex justify-content-center align-items-center"
 		>
 			<Row className="justify-content-between align-items-center h-100">
-				<Col md={5} className="p-0 m-0">
+				<Col md={5} className="p-0 m-0 text-center">
 					<img
-						src={process.env.PUBLIC_URL + "/images/profilePic.jpg"}
+						src={process.env.PUBLIC_URL + "/images/profilePic.jpeg"}
 						alt="Dharmendra Sarswat"
-						className="rounded my-4 p-0 w-100"
+						className="rounded my-4 p-0 w-75"
 					/>
 				</Col>
 				<Col md={6} className="p-2 m-0">
@@ -35,7 +35,7 @@ export const Home = () => {
 						conveyable memory. Let us help build your tribe.”{" "}
 						<em>-Deep Immersion</em>
 					</p>
-					<a href="/resume.pdf" download>
+					<a href={process.env.PUBLIC_URL + "/resume.pdf"} download>
 						<Button variant="outline-dark" className="mt-4 mr-3">
 							Download resume
 						</Button>

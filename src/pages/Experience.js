@@ -2,6 +2,14 @@ import { Container, Row, Col } from "react-bootstrap";
 
 const experiences = [
 	{
+		heading: "MERN-stack Developer",
+		company: "Cyber Infrastructure (P) Ltd",
+		duration: "Feb 2020 - Present",
+		location: "Indore, M.P, India",
+		desc:
+			"I have been performing as a MERN Stack Developer for last 1 year and still in the process of gaining more experience.",
+	},
+	{
 		heading: "Front-end Developer",
 		company: "Flats and Flatmates",
 		duration: "Aug 2020 - Dec 2020",
@@ -33,7 +41,7 @@ export const Experience = () => {
 					return (
 						<Col
 							md={5}
-							className="m-0 text-center my-4 bg-light py-5 px-4 rounded"
+							className="mx-auto text-center my-4 bg-light py-5 px-4 rounded"
 							key={index}
 							style={{ borderTop: "5px solid var(--primary-color)" }}
 						>
